@@ -1,6 +1,6 @@
 package com.kevin.payments.controllers;
 
-import com.kevin.payments.dto.requests.SubscriptionRequest;
+import com.kevin.payments.dao.requests.SubscriptionRequest;
 import com.kevin.payments.services.SubscriptionService;
 import com.stripe.model.Subscription;
 import jakarta.validation.Valid;

@@ -1,4 +1,4 @@
-package com.kevin.payments.dto.requests;
+package com.kevin.payments.dao.requests;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.kevin.payments.dto.responses;
+package com.kevin.payments.dao.responses;
 
 import lombok.Builder;
 import lombok.Data;

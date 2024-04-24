@@ -1,6 +1,6 @@
 package com.kevin.payments.controllers;
 
-import com.kevin.payments.dto.requests.PlanRequest;
+import com.kevin.payments.dao.requests.PlanRequest;
 import com.kevin.payments.services.PlanService;
 import com.stripe.model.Plan;
 import lombok.extern.slf4j.Slf4j;

@@ -1,8 +1,8 @@
 package com.kevin.payments.controllers;
 
-import com.kevin.payments.dto.requests.CardTokenRequest;
-import com.kevin.payments.dto.responses.CardTokenResponse;
-import com.kevin.payments.dto.requests.ChargeRequest;
+import com.kevin.payments.dao.requests.CardTokenRequest;
+import com.kevin.payments.dao.responses.CardTokenResponse;
+import com.kevin.payments.dao.requests.ChargeRequest;
 import com.kevin.payments.services.CardService;
 import com.stripe.model.Charge;
 import lombok.extern.slf4j.Slf4j;

@@ -1,8 +1,8 @@
 package com.kevin.payments.services;
 
-import com.kevin.payments.dto.responses.CardTokenResponse;
-import com.kevin.payments.dto.requests.ChargeRequest;
-import com.kevin.payments.dto.requests.CardTokenRequest;
+import com.kevin.payments.dao.responses.CardTokenResponse;
+import com.kevin.payments.dao.requests.ChargeRequest;
+import com.kevin.payments.dao.requests.CardTokenRequest;
 import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.Charge;
