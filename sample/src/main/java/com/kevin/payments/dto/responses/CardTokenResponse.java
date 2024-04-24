@@ -1,4 +1,4 @@
-package com.kevin.sample.dto.responses;
+package com.kevin.payments.dto.responses;
 
 import lombok.Builder;
 import lombok.Data;

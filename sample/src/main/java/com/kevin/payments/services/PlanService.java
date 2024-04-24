@@ -1,6 +1,6 @@
-package com.kevin.sample.services;
+package com.kevin.payments.services;
 
-import com.kevin.sample.dto.requests.PlanRequest;
+import com.kevin.payments.dto.requests.PlanRequest;
 import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.Plan;

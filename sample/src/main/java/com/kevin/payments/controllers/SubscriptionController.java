@@ -1,7 +1,7 @@
-package com.kevin.sample.controllers;
+package com.kevin.payments.controllers;
 
-import com.kevin.sample.dto.requests.SubscriptionRequest;
-import com.kevin.sample.services.SubscriptionService;
+import com.kevin.payments.dto.requests.SubscriptionRequest;
+import com.kevin.payments.services.SubscriptionService;
 import com.stripe.model.Subscription;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;

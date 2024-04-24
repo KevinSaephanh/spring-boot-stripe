@@ -1,7 +1,7 @@
-package com.kevin.sample.controllers;
+package com.kevin.payments.controllers;
 
-import com.kevin.sample.dto.requests.PlanRequest;
-import com.kevin.sample.services.PlanService;
+import com.kevin.payments.dto.requests.PlanRequest;
+import com.kevin.payments.services.PlanService;
 import com.stripe.model.Plan;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
