@@ -9,7 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @Slf4j
-@RestController("v1/subscriptions")
+@RestController()
+@RequestMapping("v1/subscriptions")
 public class SubscriptionController {
     @Autowired
     private SubscriptionService subscriptionService;

@@ -10,7 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @Slf4j
-@RestController("v1/card")
+@RestController()
+@RequestMapping("v1/card")
 public class CardController {
     @Autowired
     private CardService cardService;

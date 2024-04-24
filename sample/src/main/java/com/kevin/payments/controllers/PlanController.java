@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Slf4j
-@RestController("v1/plans")
+@RestController()
+@RequestMapping("v1/plans")
 public class PlanController {
     @Autowired
     private PlanService planService;
